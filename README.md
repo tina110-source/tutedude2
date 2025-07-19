@@ -2,12 +2,13 @@
 
 #task 1
 def factorial(n):
-   if(n<2):
-     return 1
-   else:
-      return= n * factorial(n-1) 
-result= factorial(3)
-print(result)
+    if(n<2):
+        return 1
+    else:
+        return n * factorial(n-1)
+
+ans= factorial(3)
+print(ans)
 
 # task 2
 from math import *
